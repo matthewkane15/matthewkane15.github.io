@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Mapbox Map</title>
+
+  <!-- Mapbox GL JS -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.1.1/mapbox-gl.css" rel="stylesheet" />
+
+  <style>
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+  </style>
+</head>
+
+<body>
+  <h1 style="position:absolute; z-index:1; background:white; padding:5px;">My Mapbox Map</h1>
+  <div id="map"></div>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWthbmU4OCIsImEiOiJjbWZ5aG9xMnQwbDdjMmpvZ2RvMGVnYWFqIn0.IgHU1MiM9BbPs4h0QA6_lA';
+
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox://styles/mkane88/cmg5j8mx0000b01s48w414ana',
+      center: [-98.5795, 39.8283], // USA center (you can change this)
+      zoom: 4
+    });
+
+    // Optional: Add navigation controls
+    map.addControl(new mapboxgl.NavigationControl());
+  </script>
+</body>
+</html>
