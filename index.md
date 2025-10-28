@@ -8,4 +8,7 @@ Here are a few things I might include later:
 - information about my skills and experience
 - a way to contact me
 
+[View My Mapbox Map](map/mapbox-map.html)
+
+
 **Stay tuned for updates!**
