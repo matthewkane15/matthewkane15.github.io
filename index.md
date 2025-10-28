@@ -8,7 +8,7 @@ Here are a few things I might include later:
 - information about my skills and experience
 - a way to contact me
 
-[View My Mapbox Map](map/mapbox-map.html)
+[View My Mapbox Map of Chicago Parks](map/mapbox-map.html)
 
 
 **Stay tuned for updates!**
